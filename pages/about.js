@@ -10,7 +10,7 @@ const About = () => {
       </Head>
       <div>
         <h1>About Me</h1>
-        <p>Lorem Ipsum</p>
+        <p>I'm a pretty cool guy.</p>
       </div>
     </>
   );

@@ -10,13 +10,9 @@ const Music = () => {
     <div>
       <h1>Music</h1>
       <h3>Spotify</h3>
-      {/* <ReactPlayer 
-        url={spotify}
-      /> */}
+      
       <h3>Bandcamp</h3>
-      {/* <ReactPlayer 
-        url={bandcamp}
-      /> */}
+      
       <h3>SoundCloud</h3>
       <ReactPlayer 
         url={soundcloud} 

@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div>
       <h1>Contact</h1>
-      <p>Inquiries:</p>
+      <p>For booking, collaborating, or any other music inquiries:</p>
       <p>musicbyell1psis@gmail.com</p>
     </div>
 

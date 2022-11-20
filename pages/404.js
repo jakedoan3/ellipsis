@@ -12,6 +12,7 @@ const NotFound = () => {
     },[])
   return (
     <div className='not-found'>
+        <title>ell!psis | Page not found </title>
         <h1>Oops!</h1>
         <h2>Page cannot be found</h2>
         <p>Go back to <Link href="/" legacyBehavior><a>home</a></Link></p>

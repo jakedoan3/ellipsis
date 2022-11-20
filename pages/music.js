@@ -8,6 +8,7 @@ const Music = () => {
 
   return (
     <div>
+      <title>ell!psis | Music</title>
       <h1>Music</h1>
       <h3>Spotify</h3>
       

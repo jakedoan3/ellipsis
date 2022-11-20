@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
+@import 'vars';
+
 * {
     color: inherit;
     margin: 0;
@@ -10,20 +12,6 @@ body {
     color: #333;
     font-family: 'Space Grotesk', sans-serif;
   }
-
-//themes
-$primary: #44a66a;
-$secondary: #f0ca2e;
-$error: #de4e27;
-$info: rgb(0, 142, 167);
-
-//spacing
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
-
-//borders
-$base-border-thickness: px;
-$base-border-radius: 12px;
 
 
 a {

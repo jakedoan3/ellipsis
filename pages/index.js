@@ -3,6 +3,8 @@ import Link from "next/link";
 import Newsletter from "../components/Newsletter";
 import styles from "../styles/Home.module.css";
 
+
+
 export default function Home() {
   return (
     <>
@@ -11,7 +13,9 @@ export default function Home() {
         <meta name="keywords" content="ell!psis"/>
       </Head>
       <div>
-        <h1 className={styles.title}>ell!psis</h1>
+        <h1 
+        className={styles.title}
+        >ell!psis</h1>
         <p className={styles.text}>Lorem ipsum</p>
         <Newsletter />
       </div>

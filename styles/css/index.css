@@ -12,7 +12,40 @@ body {
 
 a {
   text-decoration: none;
-  color: rgba(0, 85, 42, 0.51);
+  color: #f0ca2e;
+}
+
+h1 {
+  color: #44a66a;
+  margin-bottom: 0.75rem;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #44a66a;
+  border-radius: 12px;
+  padding: 0.75rem;
+}
+
+.error {
+  color: #de4e27;
+  border-color: #de4e27;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  border-width: px;
+}
+
+.notification {
+  color: #f0ca2e;
+  border-color: #f0ca2e;
+  border-style: solid;
+  margin: 0.75rem;
+  padding: 0.75rem;
+  border-radius: 12px;
+  border-width: px;
 }
 
 a:hover {

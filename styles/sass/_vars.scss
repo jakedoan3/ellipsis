@@ -4,6 +4,24 @@ $secondary: #0fd77d;
 $error: #de4e27;
 $info: rgb(0, 142, 167);
 
+//colors
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "red": red,
+    "orange": orange,
+    "yellow": yellow,
+    "green": green,
+    "blue": blue,
+    "indigo": indigo,
+    "violet": violet,
+    "black": black,
+    "white": white,
+    "brown": brown
+);
+
 //spacing
 $base-padding: 0.75rem;
 $base-margin: 0.75rem;

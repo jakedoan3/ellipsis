@@ -1,10 +1,13 @@
 @import 'functions';
 @import 'vars';
+
 @import 'base'; 
 
 @import 'colors';
 
 @import 'components/card';
-@import 'components/button'
+@import 'components/button';
 
 //colors, then components, then utils
+
+@import 'utils';

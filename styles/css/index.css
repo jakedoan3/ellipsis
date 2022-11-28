@@ -3595,6 +3595,77 @@ h1 a {
   font-size: 2rem;
 }
 
+.navbar .container, .navbar-brown .container, .navbar-white .container, .navbar-black .container, .navbar-violet .container, .navbar-indigo .container, .navbar-blue .container, .navbar-green .container, .navbar-yellow .container, .navbar-orange .container, .navbar-red .container, .navbar-info .container, .navbar-error .container, .navbar-secondary .container, .navbar-primary .container, .navbar, .navbar-brown, .navbar-white, .navbar-black, .navbar-violet, .navbar-indigo, .navbar-blue, .navbar-green, .navbar-yellow, .navbar-orange, .navbar-red, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar, .navbar-brown, .navbar-white, .navbar-black, .navbar-violet, .navbar-indigo, .navbar-blue, .navbar-green, .navbar-yellow, .navbar-orange, .navbar-red, .navbar-info, .navbar-error, .navbar-secondary, .navbar-primary {
+  padding: 0.75rem 1.5rem;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar .site-title, .navbar-brown .site-title, .navbar-white .site-title, .navbar-black .site-title, .navbar-violet .site-title, .navbar-indigo .site-title, .navbar-blue .site-title, .navbar-green .site-title, .navbar-yellow .site-title, .navbar-orange .site-title, .navbar-red .site-title, .navbar-info .site-title, .navbar-error .site-title, .navbar-secondary .site-title, .navbar-primary .site-title {
+  font-size: 1.5rem;
+}
+.navbar-primary {
+  background-color: #44a66a;
+}
+
+.navbar-secondary {
+  background-color: #0fd77d;
+}
+
+.navbar-error {
+  background-color: #de4e27;
+}
+
+.navbar-info {
+  background-color: rgb(0, 142, 167);
+}
+
+.navbar-red {
+  background-color: red;
+}
+
+.navbar-orange {
+  background-color: orange;
+}
+
+.navbar-yellow {
+  background-color: yellow;
+}
+
+.navbar-green {
+  background-color: green;
+}
+
+.navbar-blue {
+  background-color: blue;
+}
+
+.navbar-indigo {
+  background-color: indigo;
+}
+
+.navbar-violet {
+  background-color: violet;
+}
+
+.navbar-black {
+  background-color: black;
+}
+
+.navbar-white {
+  background-color: white;
+}
+
+.navbar-brown {
+  background-color: brown;
+}
+
 .br {
   border-radius: 12px;
 }

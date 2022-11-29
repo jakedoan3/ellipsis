@@ -1,6 +1,5 @@
 import Head from "next/head";
-import Link from "next/link";
-import Newsletter from "../frontend/components/Newsletter";
+import Newsletter from "../components/Newsletter";
 import styles from "../styles/Home.module.css";
 
 

@@ -15,7 +15,7 @@ export default function Home() {
         <h1 
         className={styles.title}
         >ell!psis</h1>
-        <p className={styles.text}>Lorem ipsum</p>
+        <p className={styles.text}>Lorem Ipsum</p>
         <Newsletter />
       </div>
     </>

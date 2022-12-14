@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import {checkout} from "./checkout"
+import Checkout, {checkout} from "../components/checkout"
 
 const Shop = () => {
   return (
@@ -15,16 +15,8 @@ const Shop = () => {
           Hundreds of original drums, fx, glitches, loops, and more, all bundled
           together from my 3 sample packs to date
         </p>
-        <button onClick={(()=> {
-          checkout({
-            lineItems: [
-              {
-                price: "price_1MEQH7JEOsoohAF84SRZ4INu",
-                quantity: 1
-              }
-            ]
-          })
-        })}>Buy</button>
+        <Checkout/>
+        {/* <button>Buy</button> */}
       </div>
 
       <div>
@@ -34,18 +26,8 @@ const Shop = () => {
           LIMITED QUANTITY: Contains "archon" EP, Sample Packs 1-3, full
           "archon" stems, and visuals by jersea
         </p>
-        
-        <button onClick={(()=> {
-          checkout({
-            lineItems: [
-              {
-                price: process.env.SAMPLE_PACK_BUNDLE_KEY,
-                // price: "price_1MEQHuJEOsoohAF8rLKqC4J6",
-                quantity: 1
-              }
-            ]
-          })
-        })}>Buy</button>
+        <Checkout />
+        {/* <button>Buy</button> */}
       </div>
     </div>
   );

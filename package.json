@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@stripe/stripe-js": "^1.46.0",
-    "next": "^13.0.3",
+    "next": "^13.0.6",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -20,7 +20,7 @@
     "react-player": "^2.11.0",
     "sass": "^1.56.1",
     "sharp": "^0.31.2",
-    "stripe": "^11.0.0"
+    "stripe": "^11.3.0"
   },
   "devDependencies": {
     "eslint": "8.27.0",

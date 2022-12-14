@@ -39,7 +39,8 @@ const Shop = () => {
           checkout({
             lineItems: [
               {
-                price: "price_1MEQHuJEOsoohAF8rLKqC4J6",
+                price: process.env.SAMPLE_PACK_BUNDLE_KEY,
+                // price: "price_1MEQHuJEOsoohAF8rLKqC4J6",
                 quantity: 1
               }
             ]

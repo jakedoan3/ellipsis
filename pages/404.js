@@ -1,10 +1,10 @@
-// import React, {useEffect, useRef, useState} from 'react'
+import React, {useEffect, useRef, useState} from 'react'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
 
 const NotFound = () => {
-    const router = useRouter();
+    // const router = useRouter();
 
     // useEffect(() => {
     //     setTimeout(() => {

@@ -32,9 +32,9 @@ const Navbar = () => {
       <Link href="/music" legacyBehavior>
         <a>Music</a>
       </Link>
-      <Link href="/news" legacyBehavior>
+      {/* <Link href="/news" legacyBehavior>
         <a>News</a>
-      </Link>
+      </Link> */}
       <Link href="/contact" legacyBehavior>
         <a>Contact</a>
       </Link>

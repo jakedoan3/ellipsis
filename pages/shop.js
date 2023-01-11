@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Checkout, {checkout} from "../components/checkout"
+import {checkout} from "../checkout"
 
 const Shop = () => {
   return (
@@ -15,8 +15,17 @@ const Shop = () => {
           Hundreds of original drums, fx, glitches, loops, and more, all bundled
           together from my 3 sample packs to date
         </p>
-        <Checkout/>
-        {/* <button>Buy</button> */}
+        {/* <Checkout/> */}
+        <button onClick={(() => {
+              checkout({
+                lineItems: [
+                  {
+                    price: 'price_1MOsvhJEOsoohAF8eoeRt9MO',
+                    quantity: 1
+                  }
+                ]
+              })
+            })}>Buy</button>
       </div>
 
       <div>
@@ -26,11 +35,21 @@ const Shop = () => {
           LIMITED QUANTITY: Contains "archon" EP, Sample Packs 1-3, full
           "archon" stems, and visuals by jersea
         </p>
-        <Checkout />
-        {/* <button>Buy</button> */}
+        {/* <Checkout /> */}
+        <button onClick={(() => {
+              checkout({
+                lineItems: [
+                  {
+                    price: 'price_1MOt7rJEOsoohAF8s0tAbPGH',                   
+                    quantity: 1
+                  }
+                ]
+              })
+            })}>Buy</button>
       </div>
     </div>
   );
 };
 
 export default Shop;
+

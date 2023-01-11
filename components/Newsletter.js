@@ -3,9 +3,9 @@ import NewsletterSub from './NewsletterSub'
 
 const Newsletter = () => {
   return (
-    <div>
+    <div className='newsletter'>
       {/* <h1>Sign up for my newsletter</h1> */}
-      <p>With plenty of releases, shows, and more constantly on the way, don't miss a moment.</p>
+      <p>Sign up for my newsletter to stay up to date on new music, shows, and more!</p>
       <NewsletterSub />
     </div>
   )

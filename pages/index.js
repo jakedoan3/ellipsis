@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Newsletter from "../components/Newsletter";
 import styles from "../styles/Home.module.css";
+import Image from "next/image";
 
 
 
@@ -15,8 +16,13 @@ export default function Home() {
         <h1 
         className={styles.title}
         >ell!psis</h1>
-        <p className={styles.text}>Lorem Ipsum</p>
         <Newsletter />
+        <p className={styles.text}>
+        <div className="archon-home">
+        <Image src="/images/archoncover.jpg" alt="archon cover" width={400} height={400} />
+        <Image src="/images/archon-tracklist.png" alt="archon tracklist" width={400} height={400} />
+        </div>
+        </p>
       </div>
     </>
   );

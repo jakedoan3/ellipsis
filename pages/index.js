@@ -17,11 +17,9 @@ export default function Home() {
         className={styles.title}
         >ell!psis</h1>
         <Newsletter />
-        <p className={styles.text}>
-        <div className="archon-home">
-        <Image src="/images/archoncover.jpg" alt="archon cover" width={400} height={400} />
-        <Image src="/images/archon-tracklist.png" alt="archon tracklist" width={400} height={400} />
-        </div>
+        <p className='archon-home'>
+          <Image src="/images/archoncover.jpg" alt="archon cover" width={400} height={400} />
+          <Image src="/images/archon-tracklist.png" alt="archon tracklist" width={400} height={400} />
         </p>
       </div>
     </>

@@ -6,7 +6,7 @@ const Shop = () => {
   return (
     <div>
       <title>ell!psis | Shop</title>
-      <h1>Shop</h1>
+      <h1>shop</h1>
 
       <div>
         <Image
@@ -22,6 +22,7 @@ const Shop = () => {
         </p>
         {/* <Checkout/> */}
         <button
+        className="checkoutbutton"
           onClick={() => {
             checkout({
               lineItems: [

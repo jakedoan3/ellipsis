@@ -10,7 +10,7 @@ const Music = () => {
   return (
     <div>
       <title>ell!psis | Music</title>
-      <h1>Music</h1>
+      <h1>music</h1>
       {/* <h3>Spotify</h3>
       
       <h3>Bandcamp</h3>

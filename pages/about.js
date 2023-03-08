@@ -10,7 +10,7 @@ const About = () => {
         <meta name="keywords" content="bio" />
       </Head>
       <div>
-        <h1>About Me</h1>
+        <h1>about me</h1>
         <Image src="/images/Eli-Press-Pic-01.png" alt="press photo" width={500} height={500}/> 
         <div>
           <p>My name is Jake, and I am a music producer based in Chicago.</p>

@@ -11,7 +11,7 @@ const About = () => {
       </Head>
       <div>
         <h1>about me</h1>
-        <Image src="/images/Eli-Press-Pic-01.png" alt="press photo" width={500} height={500}/> 
+        <Image src="/images/Eli-Press-Pic-01.png" alt="press photo" width={300} height={300}/> 
         <div>
           <p>My name is Jake, and I am a music producer based in Chicago.</p>
           <br></br>

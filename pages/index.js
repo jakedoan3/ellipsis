@@ -18,8 +18,10 @@ export default function Home() {
         >ell!psis</h1>
         <Newsletter />
         <p className='archon-home'>
-          <Image src="/images/archoncover.jpg" alt="archon cover" width={400} height={400} />
-          <Image src="/images/archon-tracklist.png" alt="archon tracklist" width={400} height={400} />
+          <h3>Stream my debut EP, "archon"  <a href="https://open.spotify.com/album/3VoiRXfZIR13bA5VDEhL2i?si=0MxdQ6zcTEGmCWZVEy4VcA">here</a></h3>
+          <p>or purchase it <a href="https://ell1psis.bandcamp.com/album/archon">here</a></p>
+          <Image src="/images/archoncover.jpg" alt="archon cover"  width={500} height={500} />
+          <Image src="/images/archon-tracklist.png" alt="archon tracklist" width={500} height={500} />
         </p>
       </div>
     </>

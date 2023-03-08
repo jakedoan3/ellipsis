@@ -20,7 +20,7 @@ const Shop = () => {
               checkout({
                 lineItems: [
                   {
-                    price: 'price_1MOsvhJEOsoohAF8eoeRt9MO',
+                    price: 'price_1MjS1qJEOsoohAF8gADO3hFt',
                     quantity: 1
                   }
                 ]

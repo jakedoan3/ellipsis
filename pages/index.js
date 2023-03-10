@@ -1,7 +1,5 @@
 import Head from "next/head";
 import Newsletter from "../components/Newsletter";
-import styles from "../styles/Home.module.css";
-import Image from "next/image";
 import About from "../components/About";
 import Music from "../components/Music";
 import Contact from "../components/Contact";

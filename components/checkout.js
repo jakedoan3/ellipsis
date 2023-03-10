@@ -1,6 +1,6 @@
-import  {useEffect} from 'react';
+// import  {useEffect} from 'react';
 import { loadStripe } from '@stripe/stripe-js';
-import { useRouter} from 'next/router';
+// import { useRouter} from 'next/router';
 
 export async function checkout({lineItems}){
     let stripePromise = null

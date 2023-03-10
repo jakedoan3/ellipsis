@@ -6,13 +6,17 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>ell!psis | About Me</title>
+        <title>ell!psis</title>
         <meta name="keywords" content="bio" />
       </Head>
       <div>
         <h1>about me</h1>
         <Image src="/images/Eli-Press-Pic-01.png" alt="press photo" width={300} height={300}/> 
-        <div>
+        <h3>Stream my debut EP, "archon"  <a href="https://open.spotify.com/album/3VoiRXfZIR13bA5VDEhL2i?si=0MxdQ6zcTEGmCWZVEy4VcA">here</a></h3>
+          <p>or purchase it <a href="https://ell1psis.bandcamp.com/album/archon">here</a></p>
+          
+        
+        <div className="bio-text">
           <p>My name is Jake, and I am a music producer based in Chicago.</p>
           <br></br>
           {/* Currently based in Chicago, started in 2012, didnt focus until 2017 */}

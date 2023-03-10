@@ -8,7 +8,8 @@ import NewsletterSub from "./NewsletterSub";
 
 const Footer = () => {
   return (
-    <footer>
+    <div className="footer">
+      <footer>
       <NewsletterSub />
       <div className="socials">
         <a href="https://twitter.com/ell1psis_">
@@ -28,8 +29,9 @@ const Footer = () => {
         </a>
       </div>
 
-      <p>Copyright 2022 ell!psis </p>
+      <p>Copyright 2023 ell!psis </p>
     </footer>
+    </div>
   );
 };
 

@@ -16,28 +16,28 @@ const Navbar = () => {
       <div className="logo">
         <Link href="/">
           <Image
-            src="/Logo-Transparent-Black.Png"
+            src="/Logo-Transparent-White.Png"
             alt="logo"
             width={100}
             height={100}
           />
         </Link>
       </div>
-      <Link href="/about" legacyBehavior>
+      {/* <Link href="/about" legacyBehavior>
         <a>About Me</a>
-      </Link>
+      </Link> */}
       <Link href="/shop" legacyBehavior>
         <a>Shop</a>
       </Link>
-      <Link href="/music" legacyBehavior>
+      {/* <Link href="/music" legacyBehavior>
         <a>Music</a>
-      </Link>
+      </Link> */}
       {/* <Link href="/news" legacyBehavior>
         <a>News</a>
       </Link> */}
-      <Link href="/contact" legacyBehavior>
+      {/* <Link href="/contact" legacyBehavior>
         <a>Contact</a>
-      </Link>
+      </Link> */}
     </nav>
   );
 };

@@ -23,12 +23,15 @@ const Navbar = () => {
           />
         </Link>
       </div>
+
+      {/* <Link href="/shop" legacyBehavior>
+        <a>Shop</a>
+      </Link> */}
+
       {/* <Link href="/about" legacyBehavior>
         <a>About Me</a>
       </Link> */}
-      <Link href="/shop" legacyBehavior>
-        <a>Shop</a>
-      </Link>
+      
       {/* <Link href="/music" legacyBehavior>
         <a>Music</a>
       </Link> */}

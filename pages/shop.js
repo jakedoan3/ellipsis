@@ -17,7 +17,7 @@ const Shop = () => {
         />
         <br></br>
         <div className="shop-item">
-        <h3 class>Archon USB</h3>
+        <h3>Archon USB</h3>
         <p>
         LIMITED QUANTITY: Contains "archon" EP, Sample Packs 1-3, full "archon" stems, and visuals by jersea
         </p>
@@ -52,7 +52,7 @@ const Shop = () => {
         />
         <br></br>
         <div className="shop-item">
-        <h3 class>Sample Pack Vol 1-3 Bundle</h3>
+        <h3 >Sample Pack Vol 1-3 Bundle</h3>
         <p>
           all 3 of my packs to date, bundled together from my 3 sample packs to date
         </p>
@@ -86,7 +86,7 @@ const Shop = () => {
         />
         <br></br>
         <div className="shop-item">
-        <h3 class>Sample Pack Vol 1</h3>
+        <h3 >Sample Pack Vol 1</h3>
         <p>
         contains 2 kicks, 13 percs, 5 snares, 27 loops, 25 fx, and 3 subs
 
@@ -121,7 +121,7 @@ const Shop = () => {
         />
         <br></br>
         <div className="shop-item">
-        <h3 class>Sample Pack Vol 2</h3>
+        <h3 >Sample Pack Vol 2</h3>
         <p>
         contains 4 kicks, 16 percs, 6 snares, 5 hats, 11 loops, 13 fx, and 9 subs
 
@@ -156,7 +156,7 @@ const Shop = () => {
         />
         <br></br>
         <div className="shop-item">
-        <h3 class>Sample Pack Vol 3</h3>
+        <h3 >Sample Pack Vol 3</h3>
         <p>
         contains 5 kicks, 17 percs, 7 snares, 4 hats, 15 loops, 12 fx, and 7 subs
 

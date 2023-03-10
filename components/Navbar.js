@@ -24,9 +24,9 @@ const Navbar = () => {
         </Link>
       </div>
 
-      {/* <Link href="/shop" legacyBehavior>
+      <Link href="/shop" legacyBehavior>
         <a>Shop</a>
-      </Link> */}
+      </Link>
 
       {/* <Link href="/about" legacyBehavior>
         <a>About Me</a>

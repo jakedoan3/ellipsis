@@ -1,10 +1,10 @@
 import React from "react";
 import Head from "next/head";
 
-// import Newsletter from "../components/Newsletter";
-// import About from "../components/About";
-// import Music from "../components/Music";
-// import Contact from "../components/Contact";
+import Newsletter from "../components/Newsletter";
+import About from "../components/About";
+import Music from "../components/Music";
+import Contact from "../components/Contact";
 
 
 

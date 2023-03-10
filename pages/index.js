@@ -16,10 +16,10 @@ export default function Home() {
       <div> 
         <h1 className="main"
         >ell!psis</h1>
-        <Newsletter />
+        {/* <Newsletter />
         <About />
         <Music />
-        <Contact />
+        <Contact /> */}
       </div>
     </>
   );

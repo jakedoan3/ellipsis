@@ -1,4 +1,5 @@
 // import  {useEffect} from 'react';
+import React from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 // import { useRouter} from 'next/router';
 

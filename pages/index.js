@@ -1,4 +1,6 @@
+import React from "react";
 import Head from "next/head";
+
 // import Newsletter from "../components/Newsletter";
 // import About from "../components/About";
 // import Music from "../components/Music";
@@ -16,10 +18,10 @@ export default function Home() {
       <div> 
         <h1 className="main"
         >ell!psis</h1>
-        {/* <Newsletter />
+        <Newsletter />
         <About />
         <Music />
-        <Contact /> */}
+        <Contact />
       </div>
     </>
   );
